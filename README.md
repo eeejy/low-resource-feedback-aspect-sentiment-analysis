@@ -1,8 +1,6 @@
 # Low-Resource Feedback Aspect-Based Sentiment Analysis
 
-This repository contains the experimental notebooks for my MSc Data Science and Machine Learning dissertation at University College London (UCL), completed in December 2023.
-
-The project investigates how training-data volume and text augmentation affect multi-label aspect-based sentiment classification of customer feedback. Each feedback item can be assigned one or more aspect–sentiment labels, combining a business aspect (for example, app/website experience, value for money, or staff attitude) with positive, neutral, or negative sentiment.
+This repository contains experimental notebooks investigating how training-data volume and text augmentation affect multi-label aspect-based sentiment classification of customer feedback. Each feedback item can be assigned one or more aspect–sentiment labels, combining a business aspect (for example, app/website experience, value for money, or staff attitude) with positive, neutral, or negative sentiment.
 
 ## Research scope
 
@@ -53,10 +51,4 @@ The notebooks were developed in Google Colab with GPU acceleration. They use Pyt
 
 Run the notebooks in task-number order. Before running them, update the Google Drive paths to match your environment and provide the required source and intermediate CSV files.
 
-> **Data availability:** the customer-feedback dataset and generated CSV files are not included in this repository. The notebooks currently reference files under `/content/gdrive/My Drive/MSc Project/`.
-
-## Author
-
-Eunju Lee  
-MSc Data Science and Machine Learning, University College London
-
+> **Data availability:** the customer-feedback dataset and generated CSV files are not included in this repository. Update the Google Drive paths in the notebooks before running them.
